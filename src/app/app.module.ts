@@ -11,6 +11,8 @@ import { SliderComponent } from './layout/slider/slider.component';
 import { AboutComponent } from './about/about.component';
 import { SongwidgetComponent } from './songwidget/songwidget.component';
 import { TalkshowsComponent } from './talkshows/talkshows.component';
+import { AlbumComponent } from './album/album.component';
+import { EventwidgetComponent } from './eventwidget/eventwidget.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { TalkshowsComponent } from './talkshows/talkshows.component';
     SliderComponent,
     AboutComponent,
     SongwidgetComponent,
-    TalkshowsComponent
+    TalkshowsComponent,
+    AlbumComponent,
+    EventwidgetComponent
   ],
   imports: [
     BrowserModule,

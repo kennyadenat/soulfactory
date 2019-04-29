@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { EventsComponent } from './events/events.component';
 import { TalkshowsComponent } from './talkshows/talkshows.component';
 import { AboutComponent } from './about/about.component';
+import { AlbumComponent } from './album/album.component';
 
 const routes: Routes = [
   {
@@ -19,6 +20,11 @@ const routes: Routes = [
   {
     path: 'events',
     component: EventsComponent,
+    data: { title: 'Seed Samples' }
+  },
+  {
+    path: 'album',
+    component: AlbumComponent,
     data: { title: 'Seed Samples' }
   },
   {
