@@ -3,11 +3,17 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { EventsComponent } from './events/events.component';
 import { TalkshowsComponent } from './talkshows/talkshows.component';
+import { AboutComponent } from './about/about.component';
 
 const routes: Routes = [
   {
     path: '',
     component: HomeComponent,
+    data: { title: 'Seed Samples' }
+  },
+  {
+    path: 'about',
+    component: AboutComponent,
     data: { title: 'Seed Samples' }
   },
   {

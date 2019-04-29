@@ -12152,6 +12152,7 @@ body:not(.device-touch) .clients-grid li a {
 .team-content {
   margin-top: 15px;
   color: #777;
+  font-size: 17px;
 }
 
 .team-content p:last-child {
