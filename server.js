@@ -4,7 +4,7 @@ const path = require('path');
 
 app.use(express.static(__dirname + '/dist/yinkweb'));
 
-app.listen(4200 || 8080, () => {
+app.listen(4400 || 8000, () => {
   console.log(`Server started on port`);
 });
 
